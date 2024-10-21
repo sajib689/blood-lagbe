@@ -1,9 +1,13 @@
 import React from "react";
 
 const LandingPage = () => {
-  return <div>Landing  Page
-    <p>Lorem ipsum dolor sit amet.</p>
-  </div>;
-};
+  return (
+  <div>
+    <h1 className="bg-red-300 h-screen items-center text-center">Banner reeady</h1>
+  </div>
+)};
 
 export default LandingPage;
+
+
+
