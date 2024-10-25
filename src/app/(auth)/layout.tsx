@@ -1,36 +1,31 @@
 "use client";
 import Container from "@/components/container";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+
 import React from "react";
 interface AuthLayoutProps {
   children: React.ReactNode;
 }
 const AuthLayout = ({ children }: AuthLayoutProps) => {
-  const pathnema = usePathname();
-  const isSignIn = pathnema === "/sign-in";
   return (
-    <main className="min-h-screen">
-      <Container>
-        <nav className="flex items-center justify-between py-4">
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            height={40}
-            width={40}
-            className="rounded-full"
-          />
-          <Button asChild>
-            <Link href={isSignIn ? "/sign-up" : "/sign-in"}>
-              {isSignIn ? "Sign Up" : "Sign In"}
-            </Link>
+    <div className="min-h-screen">
+      <Container className="pt-4">
+        <nav className="flex items-center justify-between pb-10">
+          <h1 className="text-2xl font-bold">Bloodify</h1>
+
+          <Button
+            asChild
+            variant={"link"}
+            size={"lg"}
+            className="text-base font-semibold"
+          >
+            <Link href="/">Register</Link>
           </Button>
         </nav>
-        <div> {children}</div>
+        <div>{children}</div>
       </Container>
-    </main>
+    </div>
   );
 };
 
