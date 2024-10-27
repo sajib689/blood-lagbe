@@ -40,7 +40,7 @@ export const Banner = () => {
                                 height={400}
                             />
                         </div>
-                        <h1 className="absolute pt-32 lg:pt-24 md:pt-44 pr-0 lg:pr-[260px] text-2xl md:text-4xl font-bold uppercase text-center lg:text-left">
+                        <h1 className="absolute pt-32 lg:pt-44 md:pt-48 pr-0 lg:pr-[240px] text-2xl md:text-4xl font-bold uppercase text-center lg:text-left">
                             Management System
                         </h1>
                     </div>
