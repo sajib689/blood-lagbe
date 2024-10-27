@@ -60,8 +60,8 @@ export const Navbar = () => {
             <div className="flex flex-col items-start mt-16 space-y-4 px-6">
               <Link href="/about" className="text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 w-full px-3 py-2 rounded-md">About</Link>
               <Link href="/service" className="text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 w-full px-3 py-2 rounded-md">Service</Link>
-              <Link href="/item" className="text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 w-full px-3 py-2 rounded-md">Item</Link>
-              <Link href="/experts" className="text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 w-full px-3 py-2 rounded-md">Experts</Link>
+              <Link href="/campaign" className="text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 w-full px-3 py-2 rounded-md">Campaign</Link>
+              <Link href="/contact" className="text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 w-full px-3 py-2 rounded-md">Contact</Link>
               <Button className='bg-[#be1d2f]'  title='Login'>Login</Button>
             </div>
           </div>
@@ -70,8 +70,8 @@ export const Navbar = () => {
           <div className="hidden lg:flex lg:items-center lg:space-x-8">
             <Link href="/about" className="px-4 py-2 font-bold text-gray-700 dark:text-gray-200">About</Link>
             <Link href="/service" className="px-4 py-2 font-bold text-gray-700 dark:text-gray-200">Service</Link>
-            <Link href="/item" className="px-4 py-2 font-bold text-gray-700 dark:text-gray-200">Item</Link>
-            <Link href="/experts" className="px-4 py-2 font-bold text-gray-700 dark:text-gray-200">Experts</Link>
+            <Link href="/campaign" className="px-4 py-2 font-bold text-gray-700 dark:text-gray-200">Campaign</Link>
+            <Link href="/contact" className="px-4 py-2 font-bold text-gray-700 dark:text-gray-200">Contact</Link>
            <Link href='/login'>
             <Button className='bg-[#be1d2f]'  title='Login'>Login</Button>
            </Link>
