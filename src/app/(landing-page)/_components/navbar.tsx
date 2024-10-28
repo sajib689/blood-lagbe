@@ -12,7 +12,7 @@ export const Navbar = () => {
   const closeDrawer = () => setIsOpen(false);
 
   return (
-    <nav className="relative bg-white shadow-lg dark:bg-gray-800 m-5 rounded-xl border ">
+    <nav className="relative bg-white shadow-xl dark:bg-gray-800 rounded-xl border ">
       <div className="container px-6 py-2 mx-auto ">
         <div className="flex items-center justify-between">
           
