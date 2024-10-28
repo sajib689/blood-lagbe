@@ -32,6 +32,7 @@ export const AllCampaign = () => {
         <h3 className="text-xl font-semibold">Free Group Checking</h3>
         <p className="text-gray-500 mt-2">
           Lorem ipsum dolor sit consectetur adipiscing elit, sed do incididunt et dolore magna aliqua.
+          Lorem ipsum dolor sit.
         </p>
       </div>
     </div>
